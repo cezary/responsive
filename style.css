@@ -6,6 +6,18 @@
   width: 100%;
 }
 
+.urls {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: calc(50vh + 190px);
+  width: 100%;
+}
+
+.urls a {
+  margin: 0 5px;
+}
+
 input.url {
   border: 1px solid rgba(0,0,0,.5);
 }

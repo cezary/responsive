@@ -51,8 +51,9 @@ button {
 }
 
 .devices {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 80px 192px 256px 400px;
+  place-content: space-around;
   width: 1024px;
 }
 
